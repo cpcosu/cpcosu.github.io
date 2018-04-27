@@ -796,3 +796,22 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
    	font-style: normal;
 }
 */
+
+/* custom */
+
+#meetings div>ul>li {
+  margin: 16px;
+  border: solid 1px;
+  border-color: #DDD;
+  font-size: 1.6rem;
+}
+
+#meetings div>ul>li>ul>li {
+  font-size: 1.2rem;
+}
+
+#meetings div>ul>li>ul>li>ul>li {
+  display: inline-block;
+  padding: 0 8px;
+  font-size: 1rem;
+}
