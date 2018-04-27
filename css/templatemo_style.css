@@ -800,8 +800,9 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 /* custom */
 
 #meetings div>ul>li {
-  margin: 16px;
   border: solid 1px;
+  margin: 16px;
+  padding: 8px;
   border-color: #DDD;
   font-size: 1.6rem;
 }
