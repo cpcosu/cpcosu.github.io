@@ -799,6 +799,11 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 
 /* custom */
 
+#events ul {
+  text-align: left;
+  list-style: inside;
+}
+
 #meetings div>ul>li {
   border: solid 1px;
   margin: 16px;
