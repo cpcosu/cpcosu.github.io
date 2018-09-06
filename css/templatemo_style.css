@@ -379,7 +379,7 @@ hr {
   font-weight: 700;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
-  display: block;
+  display: inline-block;
 }
 .flexslider .slider-caption p {
   color: white;
@@ -458,19 +458,27 @@ hr {
     border-top: none;
   }
   .main-menu ul li:last-child {
-    margin-right: 20px;
+    margin-right: 15px;
   }
   .flexslider .slider-caption h2 {
-    font-size: 24px;
+    font-size: 30px;
+    padding-bottom: 6px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .site-header {
+    margin-top: 65px;
+  }
+  .flexslider .slider-caption {
+    top: 50%;
+  }
+  .flexslider .slider-caption h2 {
+    margin-bottom: 26px;
+    border-bottom: none;
+    display: block;
   }
   .flexslider .slider-caption p {
     display: none;
-  }
-}
-@media screen and (max-height: 500px) {
-  .menu-first.show {
-    max-height: 250px;
-    padding-right: 15px;
   }
 }
 
