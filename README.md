@@ -1,2 +1,2 @@
-# osuacm.github.io
-Code for our website at osuacm.github.io
+# cpcosu.github.io
+Code for our website at cpcosu.github.io
