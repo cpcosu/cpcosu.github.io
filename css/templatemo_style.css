@@ -818,3 +818,26 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
   padding: 0 8px;
   font-size: 1rem;
 }
+
+/* Footer */
+ul.social-icons {
+  position: relative;
+  z-index: 11;
+  margin: 30px 0;
+}
+
+ul.social-icons li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+ul.social-icons li a {
+  height: 36px;
+  background-color: white;
+  color: #444444;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+}
