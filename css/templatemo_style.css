@@ -841,3 +841,14 @@ ul.social-icons li a {
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
 }
+
+/* Meetings Table */
+p#meeting-list table, th, td{
+  border: 1px solid;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+
+p#meeting-list tr:nth-child(even) {background-color: #c5c5c5;}
