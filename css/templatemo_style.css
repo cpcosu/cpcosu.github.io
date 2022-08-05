@@ -852,3 +852,10 @@ p#meeting-list table, th, td{
 }
 
 p#meeting-list tr:nth-child(even) {background-color: #c5c5c5;}
+
+/* ICPC Table */
+table#icpc-history{
+  margin: auto;
+}
+
+table#icpc-history tr#mark{background-color: #c5c5c5;}
