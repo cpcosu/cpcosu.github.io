@@ -850,12 +850,22 @@ p#meeting-list table, th, td{
   padding: 10px;
   margin: auto;
 }
-
 p#meeting-list tr:nth-child(even) {background-color: #c5c5c5;}
 
 /* ICPC Table */
 table#icpc-history{
   margin: auto;
 }
-
 table#icpc-history tr#mark{background-color: #c5c5c5;}
+
+/* Officers */
+.officer {
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+.officer h3 {
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid #444444;
+  display: inline-block;
+}
