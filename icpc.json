@@ -1,0 +1,284 @@
+[
+    {
+        "Season":"2021-2022",
+        "Contests":[
+            {
+                "Date":"2/26/2022",
+                "Contest":"Regionals - ECNA",
+                "Standings":"39th, 43rd, 60th",
+                "Scoreboard":"https://ecna21.kattis.com/contests/ecna21/standings/standalone"
+            }
+        ]
+    },
+    {
+        "Season":"2020-2021",
+        "Contests":[
+            {
+                "Date":"3/6/2021",
+                "Contest":"Regionals - ECNA",
+                "Standings":"11th, 24th",
+                "Scoreboard":"https://ecna20.kattis.com/contests/ecna20/standings/standalone"
+            },
+            {
+                "Date":"4/22/2021",
+                "Contest":"Divisionals - NADC East",
+                "Standings":"13th, 42th",
+                "Scoreboard":"https://nadc21.kattis.com/contests/nadc21/standings/standalone?filter=3555"
+            },
+            {
+                "Date":"8/8/2021",
+                "Contest":"Nationals - NAC",
+                "Standings":"43rd (of 48)",
+                "Scoreboard":"https://nac21.kattis.com/contests/nac21/standings/standalone"
+            }
+        ]
+    },
+    {
+        "Season":"2019-2020",
+        "Contests":[
+            {
+                "Date":"10/26/2019",
+                "Contest":"Regionals - ECNA",
+                "Standings":"23rd, 28th, 30th",
+                "Scoreboard":"https://ecna19.kattis.com/contests/ecna19/standings/standalone"
+            }
+        ]
+    },
+    {
+        "Season":"2018-2019",
+        "Contests":[
+            {
+                "Date":"11/10/2018",
+                "Contest":"Regionals - ECNA",
+                "Standings":"20th, 33rd, 39th",
+                "Scoreboard":"https://ecna18.kattis.com/contests/ecna18/standings/standalone"
+            }
+        ]
+    },
+    {
+        "Season":"2017-2018",
+        "Contests":[
+            {
+                "Date":"10/28/2017",
+                "Contest":"Regionals - ECNA",
+                "Standings":"18th, 53rd, 89th",
+                "Scoreboard":"https://ecna17.kattis.com/contests/ecna17/standings/standalone"
+            }
+        ]
+    },
+    {
+        "Season":"2016-2017",
+        "Contests":[
+            {
+                "Date":"10/29/2016",
+                "Contest":"Regionals - ECNA",
+                "Standings":"23rd, 73rd, 74th",
+                "Scoreboard":"https://ecna16.kattis.com/contests/ecna16/standings/standalone"
+            }
+        ]
+    },
+    {
+        "Season":"2015-2016",
+        "Contests":[
+            {
+                "Date":"10/31/2015",
+                "Contest":"Regionals - ECNA",
+                "Standings":"4th, 45th, 72nd",
+                "Scoreboard":"https://ecna15.kattis.com/contests/ecna15/standings/standalone"
+            },
+            {
+                "Date":"5/19/2016",
+                "Contest":"World Finals - WF",
+                "Standings":"105th (out of 128)",
+                "Scoreboard":"https://icpc.global/community/results-2016"
+            }
+        ]
+    },
+    {
+        "Season":"2014-2015",
+        "Contests":[
+            {
+                "Date":"11/8/2014",
+                "Contest":"Regionals - ECNA",
+                "Standings":"39th, 42nd, 42nd",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2014/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2013-2014",
+        "Contests":[
+            {
+                "Date":"11/9/2013",
+                "Contest":"Regionals - ECNA",
+                "Standings":"49th, 51st, 55th",
+                "Scoreboard":""
+            }
+        ]
+    },
+    {
+        "Season":"2012-2013",
+        "Contests":[
+            {
+                "Date":"11/3/2012",
+                "Contest":"Regionals - ECNA",
+                "Standings":"60th, 65th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2012/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2011-2012",
+        "Contests":[
+            {
+                "Date":"10/22/2011",
+                "Contest":"Regionals - ECNA",
+                "Standings":"11th, 39th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2011/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2010-2011",
+        "Contests":[
+            {
+                "Date":"11/6/2010",
+                "Contest":"Regionals - ECNA",
+                "Standings":"7th, 14th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2010/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2009-2010",
+        "Contests":[
+            {
+                "Date":"10/31/2009",
+                "Contest":"Regionals - ECNA",
+                "Standings":"9th, 18th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2009/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2008-2009",
+        "Contests":[
+            {
+                "Date":"11/1/2008",
+                "Contest":"Regionals - ECNA",
+                "Standings":"17th, 76th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2008/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2007-2008",
+        "Contests":[
+            {
+                "Date":"11/10/2007",
+                "Contest":"Regionals - ECNA",
+                "Standings":"12th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2007/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2006-2007",
+        "Contests":[
+            {
+                "Date":"11/11/2006",
+                "Contest":"Regionals - ECNA",
+                "Standings":"12th, 72nd",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2006/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2005-2006",
+        "Contests":[
+            {
+                "Date":"11/5/2005",
+                "Contest":"Regionals - ECNA",
+                "Standings":"16th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2005/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2004-2005",
+        "Contests":[
+            {
+                "Date":"11/6/2004",
+                "Contest":"Regionals - ECNA",
+                "Standings":"23rd, 41st",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2004/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2003-2004",
+        "Contests":[
+            {
+                "Date":"11/8/2003",
+                "Contest":"Regionals - ECNA",
+                "Standings":"14th, 24th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2003/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2002-2003",
+        "Contests":[
+            {
+                "Date":"11/9/2002",
+                "Contest":"Regionals - ECNA",
+                "Standings":"48th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2002/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2001-2002",
+        "Contests":[
+            {
+                "Date":"11/10/2001",
+                "Contest":"Regionals - ECNA",
+                "Standings":"18th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2001/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"2000-2001",
+        "Contests":[
+            {
+                "Date":"11/11/2000",
+                "Contest":"Regionals - ECNA",
+                "Standings":"8th, 17th",
+                "Scoreboard":"https://icpc-ecna.ysu.edu/PastResults/2000/standings.html"
+            }
+        ]
+    },
+    {
+        "Season":"1999-2000",
+        "Contests":[
+            {
+                "Date":"11/13/1999",
+                "Contest":"Regionals - ECNA",
+                "Standings":"Unknown",
+                "Scoreboard":"https://icpc.global/regionals/finder/east-central-north-america-1999/standings "
+            }
+        ]
+    },
+    {
+        "Season":"1998-1999",
+        "Contests":[
+            {
+                "Date":"11/14/1998",
+                "Contest":"Regionals - ECNA",
+                "Standings":"Unknown",
+                "Scoreboard":"https://icpc.global/regionals/finder/east-central-north-america-1998/standings "
+            }
+        ]
+    }
+]

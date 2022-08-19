@@ -16,6 +16,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
   line-height: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .blue {
@@ -290,8 +293,8 @@ hr {
 .logo-wrapper a {
   display: inline-block;
   overflow: hidden;
-  /*padding-left: 130px;*/
-  padding-left: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
   line-height: 100px;
   text-transform: uppercase;
   color: #ec523f;
@@ -399,11 +402,18 @@ hr {
 }
 @media screen and (max-width: 1199px) {
   .main-menu ul li {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .main-menu ul li:last-child {
     margin-right: 30px;
+  }
+  .logo-wrapper a {
+    padding-left: 20px;
+  }
+  .main-menu ul li {
+    display: inline-block;
+    margin: 0 7px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -416,7 +426,7 @@ hr {
   }
   .logo-wrapper a {
     line-height: 50px;
-    padding-left: 70px;
+    padding-left: 40px;
   }
   .toggle-menu {
     margin-top: 7px;
@@ -785,6 +795,7 @@ hr {
 
 #footer {
   margin-top: 130px;
+  flex: 1;
 }
 
 /*
@@ -817,4 +828,54 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 0 8px;
   font-size: 1rem;
+}
+
+/* Footer */
+ul.social-icons {
+  position: relative;
+  z-index: 11;
+  margin: 30px 0;
+}
+ul.social-icons li {
+  display: inline-block;
+  margin: 0 2px;
+}
+ul.social-icons li a {
+  height: 36px;
+  background-color: white;
+  color: #444444;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+}
+
+
+/* Meetings Table */
+p#meeting-list table, th, td{
+  border: 1px solid;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
+p#meeting-list tr:nth-child(even) {background-color: #c5c5c5;}
+
+/* ICPC Table */
+table#icpc-history{
+  margin: auto;
+}
+table#icpc-history tr#mark{background-color: #c5c5c5;}
+
+/* Officers */
+.officer {
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+.officer h3 {
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid #444444;
+  display: inline-block;
 }
