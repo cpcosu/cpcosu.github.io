@@ -1,32 +1,4 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="/bpc3/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-			rel="stylesheet"
-		/>
-		
-		<link href="/bpc3/_app/immutable/assets/0.CCXAEUio.css" rel="stylesheet">
-		<link href="/bpc3/_app/immutable/assets/2.Dt82Zge8.css" rel="stylesheet">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/entry/start.nxLHnrAH.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/chunks/D6r231gt.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/chunks/DeeiaejT.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/chunks/CgUpMogr.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/chunks/C_Wxd-7o.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/entry/app.D-iEozsW.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/chunks/CNCVfUzG.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/chunks/Ckq9SOYt.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/nodes/0.CQ1XlX1d.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/nodes/2.Blk381X4.js">
-		<link rel="modulepreload" href="/bpc3/_app/immutable/chunks/DA6-BDBb.js">
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[--><!----><!----><div class="split svelte-ky51os"><div class="header-wrap svelte-ky51os"><div class="header svelte-ky51os"><div class="title svelte-ky51os"><span class="title-element svelte-ky51os">Buckeye</span> <span class="title-element svelte-ky51os">Programming</span> <span class="title-element svelte-ky51os">Competition</span></div> <div class="buttons svelte-ky51os"><div class="button-container svelte-ky51os"><a style="background-color: #fb5858;" href="https://forms.gle/B5JgsQdv9tkku4FB8" target="_blank" class="svelte-ky51os">Register</a></div> <div class="button-container svelte-ky51os"><a style="background-color: #91e080;" href="#information" class="svelte-ky51os">Information</a></div> <div class="button-container svelte-ky51os"><a style="background-color: #5b53f4;" href="#schedule" class="svelte-ky51os">Schedule</a></div></div></div></div> <div class="image svelte-ky51os"><img src="/bpc3/bpc3-logo.svg" alt="The BPC logo" class="svelte-ky51os"></div></div> <div class="information svelte-ky51os"><h1 id="information" class="svelte-ky51os">Contest Information</h1> <p class="svelte-ky51os">The event is the third edition of the Buckeye Programming Competition, Ohio State's student-run
+import{t as m,b as y}from"../chunks/Ckq9SOYt.js";import"../chunks/DA6-BDBb.js";import{E as u,C as g,F as k,G as f,I as l,J as r,K as n,L as b}from"../chunks/DeeiaejT.js";import{b as c}from"../chunks/CgUpMogr.js";function d(s,e,t,o){var i=s.__attributes??(s.__attributes={});if(g){i[e]=s.getAttribute(e);return}i[e]!==(i[e]=t)&&(t==null?s.removeAttribute(e):typeof t!="string"&&w(s).includes(e)?s[e]=t:s.setAttribute(e,t))}var p=new Map;function w(s){var e=p.get(s.nodeName);if(e)return e;p.set(s.nodeName,e=[]);for(var t,o=s,i=Element.prototype;i!==o;){t=k(o);for(var a in t)t[a].set&&e.push(a);o=u(o)}return e}var C=m(`<div class="split svelte-ky51os"><div class="header-wrap svelte-ky51os"><div class="header svelte-ky51os"><div class="title svelte-ky51os"><span class="title-element svelte-ky51os">Buckeye</span> <span class="title-element svelte-ky51os">Programming</span> <span class="title-element svelte-ky51os">Competition</span></div> <div class="buttons svelte-ky51os"><div class="button-container svelte-ky51os"><a style="background-color: #fb5858;" href="https://forms.gle/B5JgsQdv9tkku4FB8" target="_blank" class="svelte-ky51os">Register</a></div> <div class="button-container svelte-ky51os"><a style="background-color: #91e080;" href="#information" class="svelte-ky51os">Information</a></div> <div class="button-container svelte-ky51os"><a style="background-color: #5b53f4;" href="#schedule" class="svelte-ky51os">Schedule</a></div></div></div></div> <div class="image svelte-ky51os"><img alt="The BPC logo" class="svelte-ky51os"></div></div> <div class="information svelte-ky51os"><h1 id="information" class="svelte-ky51os">Contest Information</h1> <p class="svelte-ky51os">The event is the third edition of the Buckeye Programming Competition, Ohio State's student-run
 		annual programming competition, hosted by the Competitive Programming Club. Teams of up to three
 		people will work together to solve 12-15 programming problems, varying in difficulty from easy
 		to very difficult.</p> <h2 class="svelte-ky51os">Permitted Resources</h2> <p class="svelte-ky51os">We want this contest to be an opportunity to learn new things, so we relax many of the
@@ -46,7 +18,7 @@
 		First, teams are ranked by the number of problems they have solved so far. In the case that two
 		teams have solved the same number of problems, the team which has the least amount of "time" is
 		ranked higher. "Time" refers to the total amount of time taken to solve each problem, all added
-		together.</p> <h2 class="svelte-ky51os">Prizes</h2> <div class="prizes-image svelte-ky51os"><img src="/bpc3/bpc-3-prizes.png" alt="Three trophies; gold is $150, silver is $75, and bronze is $30." class="svelte-ky51os"></div> For the Ohio State Division, first place will receive $150 (or $50 per team member), second place will
+		together.</p> <h2 class="svelte-ky51os">Prizes</h2> <div class="prizes-image svelte-ky51os"><img alt="Three trophies; gold is $150, silver is $75, and bronze is $30." class="svelte-ky51os"></div> For the Ohio State Division, first place will receive $150 (or $50 per team member), second place will
 	receive $75 (or $25 per team member), and third place will receive $30 (or $10 per team member). <h1 id="schedule" class="svelte-ky51os">Schedule</h1> <div class="date svelte-ky51os">Sunday, March 2nd</div> <div class="schedule svelte-ky51os"><div class="svelte-ky51os">08:00 AM</div> <div class="svelte-ky51os">Check in begins</div> <div class="svelte-ky51os">08:30 AM</div> <div class="svelte-ky51os">Breakfast served</div> <div class="svelte-ky51os">09:00 AM</div> <div class="svelte-ky51os">Opening ceremony</div> <div class="svelte-ky51os">09:30 AM</div> <div class="svelte-ky51os">Contest starts</div> <div class="svelte-ky51os">12:00 PM</div> <div class="svelte-ky51os">Lunch served</div> <div class="svelte-ky51os">02:30 PM</div> <div class="svelte-ky51os">Contest ends</div> <div class="svelte-ky51os">02:45 PM</div> <div class="svelte-ky51os">Closing ceremony</div></div> <ul></ul> <h1 class="svelte-ky51os">Frequently Asked Questions</h1> <h2 class="svelte-ky51os">What is competitive programming?</h2> <p class="svelte-ky51os">Competitive programming can be described as a mind sport. The goal is to program a solution to
 		solve a specific problem. The programming problems are what is typically found on online
 		assessments or technical interview coding questions. Some examples of sites that serve these
@@ -60,30 +32,4 @@
 		to medium problems. In addition, judges would be happy to guide teams on solving the easier
 		problems.</p> <h2 class="svelte-ky51os">Who runs the Buckeye Programming Competition?</h2> <p class="svelte-ky51os">Buckeye Programming Competition is run by the officers and engineers of the Competitive
 		Programming Club. If you're interested in this type of thing, join us on Thursdays at 6:30PM!
-		You can also join <a href="https://discord.gg/mEnUZTeR" class="svelte-ky51os">our Discord server</a> for announcements and discussion.</p></div><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
-			<script>
-				{
-					__sveltekit_q8kqwu = {
-						base: "/bpc3",
-						assets: "/bpc3"
-					};
-
-					const element = document.currentScript.parentElement;
-
-					Promise.all([
-						import("/bpc3/_app/immutable/entry/start.nxLHnrAH.js"),
-						import("/bpc3/_app/immutable/entry/app.D-iEozsW.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [null,null],
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+		You can also join <a href="https://discord.gg/mEnUZTeR" class="svelte-ky51os">our Discord server</a> for announcements and discussion.</p></div>`,1);function O(s){var e=C(),t=f(e),o=l(r(t),2),i=r(o);d(i,"src",`${c??""}/bpc3-logo.svg`),n(o),n(t);var a=l(t,2),v=l(r(a),20),h=r(v);d(h,"src",`${c??""}/bpc-3-prizes.png`),n(v),b(34),n(a),y(s,e)}export{O as component};
