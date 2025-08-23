@@ -1,0 +1,21 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/about": [
+		"src/routes/+layout.ts"
+	],
+	"/history": [
+		"src/routes/+layout.ts"
+	],
+	"/icpc": [
+		"src/routes/+layout.ts"
+	],
+	"/leadership": [
+		"src/routes/+layout.ts"
+	],
+	"/schedule": [
+		"src/routes/+layout.ts"
+	]
+}
