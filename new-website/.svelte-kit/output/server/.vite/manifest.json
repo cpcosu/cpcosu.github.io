@@ -9,6 +9,17 @@
       "_paths.js"
     ]
   },
+  "_equality.js": {
+    "file": "chunks/equality.js",
+    "name": "equality"
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js",
+    "name": "exports",
+    "imports": [
+      "_equality.js"
+    ]
+  },
   "_index.js": {
     "file": "chunks/index.js",
     "name": "index"
@@ -21,6 +32,7 @@
     "file": "chunks/internal.js",
     "name": "internal",
     "imports": [
+      "_equality.js",
       "_index.js",
       "_paths.js"
     ]
@@ -33,6 +45,17 @@
     "file": "chunks/paths.js",
     "name": "paths"
   },
+  "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "name": "entries/fallbacks/error.svelte",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/svelte-5/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_equality.js",
+      "_exports.js"
+    ]
+  },
   "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
     "file": "index.js",
     "name": "index",
@@ -40,17 +63,8 @@
     "isEntry": true,
     "imports": [
       "_internal.js",
-      "_paths.js"
-    ]
-  },
-  "src/routes/+error.svelte": {
-    "file": "entries/pages/_error.svelte.js",
-    "name": "entries/pages/_error.svelte",
-    "src": "src/routes/+error.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index.js",
-      "_paths.js"
+      "_paths.js",
+      "_exports.js"
     ]
   },
   "src/routes/+layout.svelte": {
@@ -86,6 +100,16 @@
     "css": [
       "_app/immutable/assets/_page.BhxL5bLO.css",
       "_app/immutable/assets/main.BIej3wxo.css"
+    ]
+  },
+  "src/routes/404/+page.svelte": {
+    "file": "entries/pages/404/_page.svelte.js",
+    "name": "entries/pages/404/_page.svelte",
+    "src": "src/routes/404/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index.js",
+      "_paths.js"
     ]
   },
   "src/routes/about/+page.svelte": {

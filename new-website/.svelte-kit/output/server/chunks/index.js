@@ -60,6 +60,14 @@ function to_class(value, hash, directives) {
   return classname === "" ? null : classname;
 }
 var current_component = null;
+function getContext(key) {
+  const context_map = get_or_init_context_map();
+  const result = (
+    /** @type {T} */
+    context_map.get(key)
+  );
+  return result;
+}
 function setContext(key, context) {
   get_or_init_context_map().set(key, context);
   return context;
@@ -199,11 +207,12 @@ export {
   attr as d,
   slot as e,
   stringify as f,
-  escape_html as g,
-  head as h,
-  bind_props as i,
-  ensure_array_like as j,
-  attr_class as k,
+  getContext as g,
+  escape_html as h,
+  head as i,
+  bind_props as j,
+  ensure_array_like as k,
+  attr_class as l,
   push as p,
   render as r,
   setContext as s

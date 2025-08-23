@@ -3,6 +3,9 @@
 		"src/routes/+layout.ts",
 		"src/routes/+layout.ts"
 	],
+	"/404": [
+		"src/routes/+layout.ts"
+	],
 	"/about": [
 		"src/routes/+layout.ts"
 	],

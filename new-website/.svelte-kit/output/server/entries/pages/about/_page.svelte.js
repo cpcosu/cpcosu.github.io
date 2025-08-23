@@ -1,4 +1,4 @@
-import { h as head, d as attr, f as stringify } from "../../../chunks/index.js";
+import { i as head, d as attr, f as stringify } from "../../../chunks/index.js";
 import { b as base } from "../../../chunks/paths.js";
 import { d as discordLink } from "../../../chunks/info.js";
 function _page($$payload) {

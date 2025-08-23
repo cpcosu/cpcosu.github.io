@@ -1,7 +1,8 @@
+import { o as object_prototype, a as array_prototype, g as get_descriptor, b as get_prototype_of, i as is_array, s as safe_equals, e as equals, c as is_extensible, r as run_all, d as index_of, f as define_property, h as array_from } from "./equality.js";
 import { U as UNINITIALIZED, H as HYDRATION_ERROR, a as HYDRATION_START, b as HYDRATION_END, r as render, p as push$1, s as setContext, c as pop$1 } from "./index.js";
 import "clsx";
 import "./paths.js";
-const DEV = false;
+const BROWSER = false;
 let public_env = {};
 let safe_public_env = {};
 function set_private_env(environment) {
@@ -11,31 +12,6 @@ function set_public_env(environment) {
 }
 function set_safe_public_env(environment) {
   safe_public_env = environment;
-}
-var is_array = Array.isArray;
-var index_of = Array.prototype.indexOf;
-var array_from = Array.from;
-var define_property = Object.defineProperty;
-var get_descriptor = Object.getOwnPropertyDescriptor;
-var object_prototype = Object.prototype;
-var array_prototype = Array.prototype;
-var get_prototype_of = Object.getPrototypeOf;
-var is_extensible = Object.isExtensible;
-const noop = () => {
-};
-function run_all(arr) {
-  for (var i = 0; i < arr.length; i++) {
-    arr[i]();
-  }
-}
-function equals(value) {
-  return value === this.v;
-}
-function safe_not_equal(a, b) {
-  return a != a ? b == b : a !== b || a !== null && typeof a === "object" || typeof a === "function";
-}
-function safe_equals(value) {
-  return !safe_not_equal(value, this.v);
 }
 const DERIVED = 1 << 1;
 const EFFECT = 1 << 2;
@@ -1046,8 +1022,8 @@ function update_effect(effect2) {
     effect2.teardown = typeof teardown2 === "function" ? teardown2 : null;
     effect2.wv = write_version;
     var dep;
-    if (DEV && tracing_mode_flag && (effect2.f & DIRTY) !== 0 && effect2.deps !== null) ;
-    if (DEV) ;
+    if (BROWSER && tracing_mode_flag && (effect2.f & DIRTY) !== 0 && effect2.deps !== null) ;
+    if (BROWSER) ;
   } finally {
     is_updating_effect = was_updating_effect;
     active_effect = previous_effect;
@@ -1722,7 +1698,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "1lv94pk"
+  version_hash: "w2ynuf"
 };
 async function get_hooks() {
   let handle;
@@ -1741,20 +1717,18 @@ async function get_hooks() {
   };
 }
 export {
-  DEV as D,
-  safe_public_env as a,
-  set_private_env as b,
-  prerendering as c,
-  set_public_env as d,
-  set_safe_public_env as e,
-  set_read_implementation as f,
+  BROWSER as B,
+  set_private_env as a,
+  prerendering as b,
+  set_public_env as c,
+  set_safe_public_env as d,
+  set_read_implementation as e,
+  set_building as f,
   get_hooks as g,
-  set_building as h,
-  set_manifest as i,
-  set_prerendering as j,
-  noop as n,
+  set_manifest as h,
+  set_prerendering as i,
   options as o,
   public_env as p,
   read_implementation as r,
-  safe_not_equal as s
+  safe_public_env as s
 };

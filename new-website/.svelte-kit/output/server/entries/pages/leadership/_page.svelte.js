@@ -1,4 +1,4 @@
-import { d as attr, g as escape_html, i as bind_props, f as stringify, j as ensure_array_like, h as head } from "../../../chunks/index.js";
+import { d as attr, h as escape_html, j as bind_props, f as stringify, k as ensure_array_like, i as head } from "../../../chunks/index.js";
 import { d as discordLink, c as clubEmail } from "../../../chunks/info.js";
 import { b as base } from "../../../chunks/paths.js";
 const leadership25 = [
