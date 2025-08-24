@@ -55,10 +55,10 @@ function LeadershipTeam($$payload, $$props) {
   let title = $$props["title"];
   let leaders = $$props["leaders"];
   const each_array = ensure_array_like(leaders);
-  $$payload.out += `<h2>${escape_html(title)}</h2> <ul class="leaders svelte-1nqb1qk"><!--[-->`;
+  $$payload.out += `<h2>${escape_html(title)}</h2> <ul class="leaders svelte-1fwxqop"><!--[-->`;
   for (let $$index = 0, $$length = each_array.length; $$index < $$length; $$index++) {
     let leader = each_array[$$index];
-    $$payload.out += `<li class="leader"><p class="leader-name svelte-1nqb1qk">${escape_html(leader.fullName)}</p> <p class="leader-position svelte-1nqb1qk">${escape_html(leader.position)}</p> <div class="socials svelte-1nqb1qk">`;
+    $$payload.out += `<li class="leader"><p class="leader-name svelte-1fwxqop">${escape_html(leader.fullName)}</p> <p class="leader-position svelte-1fwxqop">${escape_html(leader.position)}</p> <div class="socials svelte-1fwxqop">`;
     Social($$payload, {
       name: "Email",
       iconUrl: "/email-mark.svg",
@@ -95,10 +95,9 @@ function _page($$payload) {
   head($$payload, ($$payload2) => {
     $$payload2.title = `<title>Leadership</title>`;
   });
-  $$payload.out += `<h1>Leadership</h1> <p>You can ask questions on the <a${attr("href", discordLink)}>club Discord channel</a> or you can email the
-	leadership team at <a${attr("href", `mailto:${stringify(clubEmail)}`)}>${escape_html(clubEmail)}</a>.</p> <p>To contact particular leadership members, see the directory below.</p> <hr class="svelte-d84m39"/> `;
+  $$payload.out += `<div class="content"><h1>Leadership</h1> <p>You can ask questions on the <a${attr("href", discordLink)}>club Discord channel</a> or you can email the leadership team at <a${attr("href", `mailto:${stringify(clubEmail)}`)}>${escape_html(clubEmail)}</a>.</p> <p>To contact particular leadership members, see the directory below.</p> <hr class="svelte-9a2kr9"/> `;
   LeadershipTeam($$payload, { title: "'25 (Current)", leaders: leadership25 });
-  $$payload.out += `<!----> <hr class="svelte-d84m39"/>`;
+  $$payload.out += `<!----> <hr class="svelte-9a2kr9"/></div>`;
 }
 export {
   _page as default
