@@ -98,6 +98,12 @@
         display: flex;
         flex-direction: column;
       }
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 0 15px;
+      }
     }
 
     .button-container {
