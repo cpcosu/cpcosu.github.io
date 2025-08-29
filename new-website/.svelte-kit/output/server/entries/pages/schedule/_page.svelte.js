@@ -93,13 +93,13 @@ function _page($$payload) {
       recordingLink: void 0
     }
   ];
-  let upcoming = 0;
+  let upcoming = 1;
   const each_array = ensure_array_like(meetings);
   head($$payload, ($$payload2) => {
     $$payload2.title = `<title>Schedule</title>`;
   });
-  $$payload.out += `<div class="content"><h1>Schedule</h1> <p>This schedule is <em>tentative and subject to change</em>, but it should be up-to-date for at
-		least the next event. The upcoming meeting is in <strong>bold</strong>.</p> <table class="svelte-m662nd"><thead><tr><th scope="col" class="svelte-m662nd">Date</th><th scope="col" class="svelte-m662nd">Time</th><th scope="col" class="svelte-m662nd">Title</th><th scope="col" class="svelte-m662nd">Room</th><th scope="col" class="svelte-m662nd">Recording Link</th></tr></thead><tbody class="svelte-m662nd"><!--[-->`;
+  $$payload.out += `<div class="content"><h1>Schedule</h1> <p>This schedule is <em>tentative and subject to change</em>, but it should be
+    up-to-date for at least the next event. The upcoming meeting is in <strong>bold</strong>.</p> <table class="svelte-m662nd"><thead><tr><th scope="col" class="svelte-m662nd">Date</th><th scope="col" class="svelte-m662nd">Time</th><th scope="col" class="svelte-m662nd">Title</th><th scope="col" class="svelte-m662nd">Room</th><th scope="col" class="svelte-m662nd">Recording Link</th></tr></thead><tbody class="svelte-m662nd"><!--[-->`;
   for (let i = 0, $$length = each_array.length; i < $$length; i++) {
     let meeting = each_array[i];
     $$payload.out += `<tr${attr_class("svelte-m662nd", void 0, { "upcoming": i === upcoming })}><td class="svelte-m662nd">${escape_html(meeting.date)}</td><td class="svelte-m662nd">${escape_html(meeting.time)}</td>`;
