@@ -13,7 +13,7 @@
       date: "Aug 28",
       time: "7:00PM - 8:00PM",
       room: "Hitchcock 031",
-      recordingLink: undefined,
+      recordingLink: "https://www.youtube.com/watch?v=xuWy1zqzORE",
     },
     {
       title: "Lecture: The Basics",
@@ -141,7 +141,13 @@
             <td class="tbd">(to be determined)</td>
           {/if}
           <td>{meeting.room}</td>
-          <td>{meeting.recordingLink}</td>
+          {#if meeting.recordingLink !== undefined}
+            <td
+              ><a target="_blank" href={meeting.recordingLink}>(YouTube)</a></td
+            >
+          {:else}
+            <td></td>
+          {/if}
         </tr>
       {/each}
     </tbody>

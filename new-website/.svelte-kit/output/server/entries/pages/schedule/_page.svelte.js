@@ -1,4 +1,4 @@
-import { k as ensure_array_like, i as head, l as attr_class, h as escape_html } from "../../../chunks/index.js";
+import { k as ensure_array_like, i as head, l as attr_class, h as escape_html, d as attr } from "../../../chunks/index.js";
 function _page($$payload) {
   const meetings = [
     {
@@ -6,7 +6,7 @@ function _page($$payload) {
       date: "Aug 28",
       time: "7:00PM - 8:00PM",
       room: "Hitchcock 031",
-      recordingLink: void 0
+      recordingLink: "https://www.youtube.com/watch?v=xuWy1zqzORE"
     },
     {
       title: "Lecture: The Basics",
@@ -110,7 +110,15 @@ function _page($$payload) {
       $$payload.out += "<!--[!-->";
       $$payload.out += `<td class="tbd svelte-m662nd">(to be determined)</td>`;
     }
-    $$payload.out += `<!--]--><td class="svelte-m662nd">${escape_html(meeting.room)}</td><td class="svelte-m662nd">${escape_html(meeting.recordingLink)}</td></tr>`;
+    $$payload.out += `<!--]--><td class="svelte-m662nd">${escape_html(meeting.room)}</td>`;
+    if (meeting.recordingLink !== void 0) {
+      $$payload.out += "<!--[-->";
+      $$payload.out += `<td class="svelte-m662nd"><a target="_blank"${attr("href", meeting.recordingLink)}>(YouTube)</a></td>`;
+    } else {
+      $$payload.out += "<!--[!-->";
+      $$payload.out += `<td class="svelte-m662nd"></td>`;
+    }
+    $$payload.out += `<!--]--></tr>`;
   }
   $$payload.out += `<!--]--></tbody></table> <p>* This is the only meeting outside of the usual 7-8 time slot.</p></div>`;
 }
