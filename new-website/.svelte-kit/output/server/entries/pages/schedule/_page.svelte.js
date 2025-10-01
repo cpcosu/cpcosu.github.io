@@ -13,7 +13,7 @@ function _page($$payload) {
       date: "Sep 4",
       time: "7:00PM - 8:00PM",
       room: "Hitchcock 031",
-      recordingLink: void 0
+      recordingLink: "https://www.youtube.com/watch?v=FFmd_UoqtdQ"
     },
     {
       title: "Workday",
@@ -37,7 +37,7 @@ function _page($$payload) {
       recordingLink: void 0
     },
     {
-      title: void 0,
+      title: "Lecture: Graphs",
       date: "Oct 2",
       time: "7:00PM - 8:00PM",
       room: "Hitchcock 031",
@@ -93,7 +93,7 @@ function _page($$payload) {
       recordingLink: void 0
     }
   ];
-  let upcoming = 1;
+  let upcoming = 5;
   const each_array = ensure_array_like(meetings);
   head($$payload, ($$payload2) => {
     $$payload2.title = `<title>Schedule</title>`;

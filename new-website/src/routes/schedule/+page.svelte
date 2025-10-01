@@ -20,7 +20,7 @@
       date: "Sep 4",
       time: "7:00PM - 8:00PM",
       room: "Hitchcock 031",
-      recordingLink: undefined,
+      recordingLink: "https://www.youtube.com/watch?v=FFmd_UoqtdQ",
     },
     {
       title: "Workday",
@@ -44,7 +44,7 @@
       recordingLink: undefined,
     },
     {
-      title: undefined,
+      title: "Lecture: Graphs",
       date: "Oct 2",
       time: "7:00PM - 8:00PM",
       room: "Hitchcock 031",
@@ -106,7 +106,7 @@
    * this could be automated, but we're updating the site every week anyway
    * so i don't know how necessary that is.
    */
-  let upcoming = 1;
+  let upcoming = 5;
 </script>
 
 <svelte:head>
