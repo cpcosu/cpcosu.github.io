@@ -44,7 +44,7 @@ function _page($$payload) {
       recordingLink: void 0
     },
     {
-      title: void 0,
+      title: "Workday",
       date: "Oct 9",
       time: "7:00PM - 8:00PM",
       room: "Enarson 311",
@@ -93,7 +93,7 @@ function _page($$payload) {
       recordingLink: void 0
     }
   ];
-  let upcoming = 5;
+  let upcoming = 6;
   const each_array = ensure_array_like(meetings);
   head($$payload, ($$payload2) => {
     $$payload2.title = `<title>Schedule</title>`;
