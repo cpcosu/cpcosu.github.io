@@ -30,7 +30,7 @@ function _page($$payload) {
       recordingLink: void 0
     },
     {
-      title: "Contest: The Basics",
+      title: "Contest 1",
       date: "Sep 25",
       time: "7:00PM - 8:00PM",
       room: "Enarson 311",
@@ -51,14 +51,14 @@ function _page($$payload) {
       recordingLink: void 0
     },
     {
-      title: void 0,
+      title: "Workday",
       date: "Oct 23",
       time: "7:00PM - 8:00PM",
       room: "Enarson 311",
       recordingLink: void 0
     },
     {
-      title: void 0,
+      title: "Contest 2",
       date: "Oct 30",
       time: "7:00PM - 8:00PM",
       room: "Enarson 311",
@@ -93,7 +93,7 @@ function _page($$payload) {
       recordingLink: void 0
     }
   ];
-  let upcoming = 6;
+  let upcoming = 9;
   const each_array = ensure_array_like(meetings);
   head($$payload, ($$payload2) => {
     $$payload2.title = `<title>Schedule</title>`;

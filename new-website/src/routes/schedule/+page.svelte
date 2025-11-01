@@ -37,7 +37,7 @@
       recordingLink: undefined,
     },
     {
-      title: "Contest: The Basics",
+      title: "Contest 1",
       date: "Sep 25",
       time: "7:00PM - 8:00PM",
       room: "Enarson 311",
@@ -58,14 +58,14 @@
       recordingLink: undefined,
     },
     {
-      title: undefined,
+      title: "Workday",
       date: "Oct 23",
       time: "7:00PM - 8:00PM",
       room: "Enarson 311",
       recordingLink: undefined,
     },
     {
-      title: undefined,
+      title: "Contest 2",
       date: "Oct 30",
       time: "7:00PM - 8:00PM",
       room: "Enarson 311",
@@ -106,7 +106,7 @@
    * this could be automated, but we're updating the site every week anyway
    * so i don't know how necessary that is.
    */
-  let upcoming = 6;
+  let upcoming = 9;
 </script>
 
 <svelte:head>
