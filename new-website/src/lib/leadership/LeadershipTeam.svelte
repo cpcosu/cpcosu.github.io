@@ -6,9 +6,15 @@
 
   export let title: string;
   export let leaders: Leader[];
+  export let note: string | undefined = undefined;
 </script>
 
 <h2>{title}</h2>
+{#if note !== undefined}
+  <div class="note">
+    <em>{note}</em>
+  </div>
+{/if}
 <ul class="leaders">
   {#each leaders as leader}
     <li class="leader">
@@ -31,7 +37,9 @@
         <Social
           name={"LinkedIn"}
           iconUrl="{base}/linkedin-mark.svg"
-          handle={leader.socials.linkedInHandle}
+          handle={leader.socials.linkedInHandle !== undefined
+            ? leader.fullName
+            : undefined}
           url="https://linkedin.com/in/{leader.socials.linkedInHandle}"
         />
         <Social
@@ -74,5 +82,10 @@
 
   .socials {
     margin-top: 15px;
+  }
+
+  .note {
+    color: gray;
+    margin-bottom: 15px;
   }
 </style>

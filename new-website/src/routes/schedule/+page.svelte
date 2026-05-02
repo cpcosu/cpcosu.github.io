@@ -115,12 +115,13 @@
 
 <div class="content">
   <h1>Schedule</h1>
-  <p>
+  <p>Come back closer to the start of the semester for more information!</p>
+  <!-- <p>
     This schedule is <em>tentative and subject to change</em>, but it should be
     up-to-date for at least the next event. The upcoming meeting is in
     <strong>bold</strong>.
-  </p>
-  <table>
+  </p> -->
+  <!-- <table>
     <thead
       ><tr>
         <th scope="col">Date</th>
@@ -152,7 +153,7 @@
       {/each}
     </tbody>
   </table>
-  <p>* This is the only meeting outside of the usual 7-8 time slot.</p>
+  <p>* This is the only meeting outside of the usual 7-8 time slot.</p> -->
 </div>
 
 <style lang="scss">
